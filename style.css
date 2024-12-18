@@ -6,9 +6,7 @@
    
 }
 
-.back form{
-    display:flex;
-}
-textarea .message-input{
-   text-align:right; ;
+
+form-control{
+    align-items: right;
 }
