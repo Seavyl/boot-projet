@@ -1,0 +1,14 @@
+.images{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.back form{
+    display:flex;
+}
+textarea .message-input{
+   text-align:right; ;
+}
