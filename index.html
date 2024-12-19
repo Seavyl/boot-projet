@@ -26,7 +26,7 @@
       <a class="nav-link disabled" href="#">Portfolio</a>
     </li>
   </ul>
-  <section></section>
+
   <figure class="text-center pt-5 mt-5 ">
     <blockquote class="blockquote ">
   
@@ -42,7 +42,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="./images/a.jpg"  alt="sun rise">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Sun rise</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -54,7 +54,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="./images/b.jpg"  alt="mésange">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Mésange</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -64,7 +64,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="./images/c.jpg" alt="Faucon">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Faucon</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -74,9 +74,9 @@
   </div>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100 mt-4 mb-5 pb-5">
         <img src="./images/d.jpg"alt="Martin-pêcheur">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Martin-pêcheur</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -84,9 +84,9 @@
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100 mt-4 mb-5 pb-5">
         <img src="./images/e.jpg"alt="sun set">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Sun set</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -94,9 +94,9 @@
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100 mt-4 mb-5 pb-5">
         <img src="./images/f.jpg" alt="colibri">
-        <div class="card-body">
+        <div>
           <h5 class="card-title">Colibri</h5>
           <p class="card-text text-body-secondary">Photography</p>
         </div>
@@ -105,44 +105,51 @@
   </div>
 </section>
 
-<section class="back-form">
-  <div class="container text-center">
+<section class="back-form text-center" style="width:100%">
+  
   <div class="card text-bg-dark">
-    <img src="./images/sunrise.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay">
-      <h2 class="card-title">CONTACT US</h2>
+    <img src="./images/sunrise.jpg" class="img-fluid" alt="sunrise" width="100%" height="auto">
+    <div class="card-img-overlay mb-5">
+      <h2 class="card-title mt-5 pt-3">CONTACT US</h2>
       <form>
-        <div class="col-12" style="width:250px">
+        <div class="row">
+        <div class="col-6 ">
           
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
-          
-      </div>
-        <div class="col-12" style="width:250px">
+          <input type="email" class="form-control mt-5 ms-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name*">
+          <input type="email" class="form-control mt-4 ms-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*">
+          <input type="telephone" class="form-control mt-4 ms-5" id="exampleInputEmail1" placeholder ="téléphone*">
+          </div>
+        <div class="col-6 ">
+          <textarea type="message" class="form-control message-input mt-5 ms-5 me-5"  style="height:161px" id="exampleInputEmail1" placeholder="Message*"></textarea>
             
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-           
         </div>
-        <div class="col-12" style="width:250px">
-            
-            <input type="telephone" class="form-control" id="exampleInputEmail1" placeholder ="téléphone">
-        </div>
-        <div class="textarea" "col-12" style="width:250px">
-          
-          <textarea type="message" class="form-control message-input" id="exampleInputEmail1" placeholder="Message"></textarea>
-      </div>
         
-        <button type="submit" class="btn bs-border-color">Send Message</button>
+      
+        
+        <button type="submit" class="btn mt-4">Send Message</button>
     </form>
-  </div>
+  
 </section>
 <footer>
  
-        <p class="ms-5 mt-3 mb-4">&copy Copyright christian del</p>
-      <img src="./images/logo facebook.png" alt="">
-      <img src="./images/twitter.png" alt="">
-      <img src="./images/linke.png" alt="">
-        </footer>
-  
+        
+  <div class="row">
+    <div class="col-6">
+      <p class="ms-5 mt-3 mb-4" >&copy Copyright christian del</p>
+    </div>
+    <div class="col mt-3 ">
+      <img src="./images/icons8-facebook-50.png" alt="facebook" width="25px">
+      <img src="./images/icons8-twitter-50.png" alt="twitter" width="25px">
+      <img src="./images/icons8-linkedin-50.png" alt="linkedin" width="25px">
+    </div>
+    <div class="col-6">
+      
+    </div>
+  </div>
+</div>
+ 
+    
+    
 
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>

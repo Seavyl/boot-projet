@@ -7,6 +7,14 @@
 }
 
 
-form-control{
-    align-items: right;
+form-control {
+    align-items: center;
+}
+
+.back-form text-center{
+    align-items: center;
+}
+
+.form-control{
+    padding-right: 10px
 }
